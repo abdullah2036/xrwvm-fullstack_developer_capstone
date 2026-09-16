@@ -1,0 +1,5 @@
+djangoenv/
+**/node_modules/
+**/__pycache__/
+*.pyc
+.git/
