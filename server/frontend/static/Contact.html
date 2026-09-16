@@ -1,0 +1,98 @@
+<html>
+<head>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <style>
+    .contact-grid {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: auto;
+      padding: 2%;
+    }
+    .contact-grid .card {
+      width: 30%;
+      padding: 20px;
+      text-align: center;
+    }
+    .contact-grid h3 {
+      color: darkslategray;
+      margin-bottom: 10px;
+    }
+    .hours-table {
+      width: 60%;
+      margin: auto;
+      margin-bottom: 4%;
+    }
+    .hours-table td {
+      padding: 6px 12px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+  </style>
+</head>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" aria-current="page" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+    <div class="banner" name="contact-header">
+      <h1>Contact Us</h1>
+      Have a question about a vehicle, a trade-in, or financing? Our team at Best Cars is happy to help.
+      Reach out using any of the options below and we will get back to you within one business day.
+    </div>
+
+    <div class="contact-grid">
+      <div class="card">
+        <h3>Visit Us</h3>
+        <p>Best Cars Dealership<br>
+           1420 Lakeshore Boulevard<br>
+           Toronto, ON M5V 2T6<br>
+           Canada</p>
+      </div>
+
+      <div class="card">
+        <h3>Call Us</h3>
+        <p>Sales: (416) 555-0138<br>
+           Service: (416) 555-0142<br>
+           Parts: (416) 555-0159<br>
+           Toll free: 1-800-555-2277</p>
+      </div>
+
+      <div class="card">
+        <h3>Email Us</h3>
+        <p>General: info@bestcars.com<br>
+           Sales: sales@bestcars.com<br>
+           Service: service@bestcars.com<br>
+           Careers: careers@bestcars.com</p>
+      </div>
+    </div>
+
+    <h3 style="text-align: center;">Showroom Hours</h3>
+    <table class="hours-table">
+      <tr><td>Monday - Friday</td><td>9:00 AM - 8:00 PM</td></tr>
+      <tr><td>Saturday</td><td>9:00 AM - 6:00 PM</td></tr>
+      <tr><td>Sunday</td><td>11:00 AM - 5:00 PM</td></tr>
+      <tr><td>Statutory Holidays</td><td>Closed</td></tr>
+    </table>
+  </div>
+</div>
+</html>
