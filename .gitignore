@@ -132,3 +132,4 @@ server/db.sqlite3
 __pycache__/
 *.pyc
 node_modules/
+server/frontend/build/
