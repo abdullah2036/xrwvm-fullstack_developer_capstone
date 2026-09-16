@@ -1,10 +1,5 @@
 [flake8]
 max-line-length = 100
-exclude =
-    .git,
-    __pycache__,
-    djangoenv,
-    node_modules,
-    build
+exclude = .git,__pycache__,djangoenv,node_modules,build
 per-file-ignores =
     */migrations/*.py: E501
